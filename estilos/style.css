@@ -18,6 +18,10 @@ header {
     padding-left: 35px;
     display: flex;
     align-items: center;
+    position: fixed;
+    border-bottom: 2px solid #38B6FF;
+    width: 100vw;
+
 }
 
 header ul li{
@@ -33,6 +37,7 @@ a {
     color: white;
 }
 
+
 /* Name */
 
 .name-container {
@@ -41,7 +46,6 @@ a {
     justify-content: space-around;
     padding-top: 50px;
     height: 50vh;
-    border-top: 2px solid #38B6FF;
     display: flex;
 }
 
@@ -71,9 +75,9 @@ p {
 
 .estilo-imagem{
     height: 40vh;
-    display: flex;
-
+    display: flex;    
 }
+
 
 .botaocv {
     background-color: #38B6FF;
@@ -97,9 +101,13 @@ p {
     background-color: #092230;
     display: flex;
     justify-content: space-around;
+    justify-items: center;
 }
 
-.about-container h2 {
+.estilosobre h2 {
     color: #38B6FF;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 48px;
 }
 

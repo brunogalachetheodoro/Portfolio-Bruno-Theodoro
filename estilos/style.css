@@ -15,7 +15,7 @@ body {
 header {
     background-color: #121212;
     height: 50px;
-    padding-left: 35px;
+    padding-left: 80px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -42,11 +42,13 @@ a {
 
 .name-container {
     background-color: #121212;    
-    padding-left: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     justify-content: space-around;
     padding-top: 50px;
     height: 50vh;
     display: flex;
+
 }
 
 
@@ -75,9 +77,9 @@ p {
 
 .estilo-imagem{
     height: 40vh;
-    display: flex;    
-}
+    display: flex;   
 
+}
 
 .botaocv {
     background-color: #38B6FF;
@@ -88,6 +90,9 @@ p {
     padding-right: 40px;
     font-weight: bolder;
     font-size: 16px;
+    flex: 0 1 auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .degrade {
@@ -102,6 +107,9 @@ p {
     display: flex;
     justify-content: space-around;
     justify-items: center;
+    align-items: center ;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .estilosobre h2 {
@@ -111,3 +119,54 @@ p {
     font-size: 48px;
 }
 
+/* Hard Skills*/
+
+.degrade2 {
+    height: 10vh;
+    background-image: linear-gradient(to top, #121212, #092230);
+}
+
+.hardskills {
+    background-color: #121212;
+    align-items: center;
+    justify-content: center;
+}
+
+.hardskills h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #38B6FF;
+    font-size: 48px;
+    margin: 0;
+}
+
+.estilo-hard-skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    /* overflow-x: auto; */
+}
+
+
+.estilo-hard-skills i {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.estilo-hard-skills i p {
+    color: #38B6FF;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+#js {
+    border-radius: 10px;
+}

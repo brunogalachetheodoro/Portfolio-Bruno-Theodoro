@@ -164,10 +164,74 @@ p {
 
 .estilo-hard-skills i p {
     color: #38B6FF;
-    font-weight: 800;
+    font-weight: 400;
     padding-top: 20px;
+    font-style: normal;
 }
 
 #js {
     border-radius: 10px;
+}
+
+
+#logo-html {
+    padding-right: 20px;
+}
+
+/* Soft Skills*/
+
+.soft-skills {
+    background-color: #121212;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.soft-skills h2 {
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #38B6FF;
+    font-size: 48px;
+}
+
+.soft-skills-imagens {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.soft-skills-imagens > div {
+    display: flex;
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    justify-content: center;
+}
+
+.soft-skills-imagens > div:hover {
+    flex: 5;
+}
+
+.soft-skills p {
+    display: flex;
+    color: #38B6FF;
+    align-items: end;
+    margin-bottom: -70px;
+    font-size: 15px;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.soft-skills p:hover{
+    opacity: 1
 }

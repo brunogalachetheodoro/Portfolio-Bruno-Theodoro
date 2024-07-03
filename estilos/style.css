@@ -109,8 +109,8 @@ p {
     justify-content: space-around;
     justify-items: center;
     align-items: center ;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .estilosobre h2 {
@@ -233,5 +233,7 @@ p {
 }
 
 .soft-skills p:hover{
-    opacity: 1
+    opacity: 1;
+    padding-left: 150px;
+    padding-right: 150px;
 }

@@ -10,6 +10,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    font-size: 48px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
 /* Header*/
 
 header {
@@ -109,8 +117,8 @@ p {
     justify-content: space-around;
     justify-items: center;
     align-items: center ;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .estilosobre h2 {
@@ -139,7 +147,6 @@ p {
     padding-bottom: 50px;
     color: #38B6FF;
     font-size: 48px;
-    margin: 0;
 }
 
 .estilo-hard-skills {
@@ -182,12 +189,10 @@ p {
 
 .soft-skills {
     background-color: #121212;
-    margin: 0;
     padding-bottom: 50px;
 }
 
 .soft-skills h2 {
-    margin: 0;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -234,6 +239,61 @@ p {
 
 .soft-skills p:hover{
     opacity: 1;
-    padding-left: 150px;
-    padding-right: 150px;
+}
+
+/* Projects */
+
+.degrade3 {
+    height: 22vh;
+    background-image: linear-gradient(to bottom, #121212, #38b6ff);
+}
+
+div h2 {
+    text-align: center;
+    color: #121212;
+    padding-bottom: 100px;
+}
+
+.projects {
+    background-color: #38b6ff;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.div-title {
+    background-color: #38B6FF;
+}
+
+.projects img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.style-projects p {
+    color: #121212;
+    font-size: 18px;
+}
+
+.style-projects {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.projects-text {
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.projects-button {
+    display: flex;
 }

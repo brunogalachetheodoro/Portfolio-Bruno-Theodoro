@@ -67,9 +67,12 @@ h1 {
 
 }
 
-h2 {
+.estilo-texto h2 {
     color: white;
+    font-size: 32px;
     padding-left: 5px;
+    text-align: left;
+    
 }
 
 p {
@@ -248,7 +251,7 @@ p {
     background-image: linear-gradient(to bottom, #121212, #38b6ff);
 }
 
-div h2 {
+.div-title h2 {
     text-align: center;
     color: #121212;
     padding-bottom: 100px;
@@ -302,6 +305,7 @@ div h2 {
 
 .projects-button-style {
     background-color: #282f33;
+    border: 5px solid #282f33;
     padding: 5px 40px;
     margin: 0em 1em;
     border-radius: 15px;
@@ -323,14 +327,100 @@ div h2 {
 
 #github-button {
     background-color: #154561;
+    border: 5px solid #154561;
+
 }
 
 .projects-button-style:hover {
     background-color: #154561;
+    border: 5px solid #282f33;
     transition-duration: 0.8s;
 }
 
 #github-button:hover {
     background-color: #282f33;
+    border: 5px solid #154561;
     transition-duration: 0.8s;
+}
+
+/* Certifications */
+
+#div-title-certificado {
+    background-color: #092230;
+    padding-top: 80px;
+}
+
+#div-title-certificado h2 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.degrade4 {
+    height: 10vh;
+    background-image: linear-gradient(to bottom, #38b6ff, #092230);
+}
+
+.style-certifications {
+    background-color: #092230;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px 0px;
+}
+
+.style-card {
+    height: 450px;
+    width: 300px;
+    background-color: #092230;
+    border-radius:20px;
+    overflow: hidden;
+    margin: 0px 80px 80px 80px;
+}
+
+.style-card-2 {
+    height: 448px;
+    width: 300px;
+    border-radius:20px;
+    border: 2px solid white;
+}
+
+.style-card img{
+    max-width: 298px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.style-card h3 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.style-card p {
+    font-size: 16px;
+    margin: 20px;
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #121212;
+}
+
+footer p {
+    color: #38B6FF;
+    font-size: 12px;
+
+}
+
+footer img {
+    width: 25px;
+    margin: 0px 7px;
 }

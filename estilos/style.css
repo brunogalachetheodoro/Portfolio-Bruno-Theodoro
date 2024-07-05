@@ -22,7 +22,7 @@ h1, h2, h3 {
 
 header {
     background-color: #121212;
-    height: 50px;
+    height: 60px;
     padding-left: 80px;
     display: flex;
     align-items: center;
@@ -45,6 +45,14 @@ a {
     color: white;
 }
 
+header a:hover {
+    background-color: #38B6FF;
+    padding: 15px;
+    border-radius: 5px;
+    color: #121212;
+    font-weight: bolder;
+    transition-duration: 0.7s;
+}
 
 /* Name */
 
@@ -63,7 +71,7 @@ a {
 h1 {
     color: #38B6FF ;
     font-size: 75px;
-    padding-top: 25px;
+    padding-top: 100px;
 
 }
 
@@ -81,6 +89,10 @@ p {
 
 }
 
+.estilo-texto p {
+    padding-bottom: 50px;
+}
+
 .estilo-p {
     position:static;
     color: #38B6FF;
@@ -88,10 +100,9 @@ p {
 
 .estilo-imagem{
     height: 40vh;
-    display: flex;  
-
-
+    display: flex; 
 }
+
 
 .botaocv {
     background-color: #38B6FF;
@@ -100,11 +111,20 @@ p {
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 20px;
     font-weight: bolder;
     font-size: 16px;
     flex: 0 1 auto;
     max-width: 100%;
     max-height: 100%;
+    cursor: pointer;
+}
+
+.botaocv:hover {
+    border: 2px solid #38B6FF;
+    background-color: #121212;
+    color: #38B6FF;
+    transition: 0.3s;
 }
 
 .degrade {
@@ -117,11 +137,11 @@ p {
 .about-container {
     background-color: #092230;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     justify-items: center;
     align-items: center ;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .estilosobre h2 {
@@ -187,6 +207,10 @@ p {
 #logo-html {
     padding-right: 20px;
 }
+
+.hide-elements {
+    display: none;
+} /*Ao adquirir as habilidades, apagar*/
 
 /* Soft Skills*/
 
@@ -312,6 +336,7 @@ p {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    
 }
 
 .projects-button p {

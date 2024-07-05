@@ -132,6 +132,18 @@ p {
     background-image: linear-gradient(to bottom, #121212, #092230);
 }
 
+.style-name-img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.style-social-icons-name {
+    width: 32px;
+    height: 32px;
+    margin: -20px 25px 0px 25px;
+}
+
 /* About*/
 
 .about-container {
@@ -396,7 +408,7 @@ p {
 }
 
 .style-card {
-    height: 450px;
+    height: 470px;
     width: 300px;
     background-color: #092230;
     border-radius:20px;
@@ -405,7 +417,7 @@ p {
 }
 
 .style-card-2 {
-    height: 448px;
+    height: 468px;
     width: 300px;
     border-radius:20px;
     border: 2px solid white;
@@ -428,6 +440,7 @@ p {
     font-size: 16px;
     margin: 20px;
     color: white;
+    text-align: center;
 }
 
 /* Footer */

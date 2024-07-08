@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     
     /* Header */
 
@@ -10,9 +10,7 @@
         padding-left: 0px;
         display: inline;
         align-items: center;
-        position: fixed;
-        border-bottom: 2px solid #38B6FF;
-        width: 100vw;
+        position: absolute;
     }
 
     header ul li{
@@ -44,6 +42,7 @@
 
     .style-name-img {
         order: 1;
+        margin: auto;        
     }
 
     .estilo-imagem{
@@ -58,6 +57,16 @@
 
 .about-container {
     flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
+/* Hard Skills*/
+
+.estilo-hard-skills i p {
+    padding-top: 0px;
+}
+
+/*Soft Skills*/
 
 }

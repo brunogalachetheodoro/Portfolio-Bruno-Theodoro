@@ -2,7 +2,62 @@
 
 @media screen and (max-width: 450px) {
     
-    h1 {
-        color: red;
+    /* Header */
+
+    header {
+        background-color: #121212;
+        height: 60px;
+        padding-left: 0px;
+        display: inline;
+        align-items: center;
+        position: fixed;
+        border-bottom: 2px solid #38B6FF;
+        width: 100vw;
     }
+
+    header ul li{
+        list-style: none;
+        color: white;
+        display: inline;
+        padding-right: 1em;
+        font-size: 0.761rem;
+    }
+
+    /* Name */
+
+    .name-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1 {
+        padding-top: 50px;
+    }
+
+    .estilo-texto h2 {
+        text-align: center;
+    }
+
+    .estilo-texto {
+        order: 2;
+    }
+
+    .style-name-img {
+        order: 1;
+    }
+
+    .estilo-imagem{
+        height: 20em;
+    }
+
+    .degrade {
+        height: 70vh;
+    }
+
+/* About */
+
+.about-container {
+    flex-direction: column;
+}
+
 }

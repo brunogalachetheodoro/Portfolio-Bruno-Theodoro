@@ -38,7 +38,7 @@ header ul li{
     display: inline;
     padding-right: 2em;
 }
-
+ 
 
 a {
     text-decoration: none;
@@ -127,11 +127,6 @@ p {
     transition: 0.3s;
 }
 
-.degrade {
-    height: 10vh;
-    background-image: linear-gradient(to bottom, #121212, #092230);
-}
-
 .style-name-img {
     justify-content: center;
     align-items: center;
@@ -143,6 +138,12 @@ p {
     height: 32px;
     margin: -20px 25px 0px 25px;
 }
+
+.degrade {
+    height: 10vh;
+    background-image: linear-gradient(to bottom, #121212, #092230);
+}
+
 
 /* About*/
 

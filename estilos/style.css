@@ -64,9 +64,7 @@ header a:hover {
     padding-top: 50px;
     height: 50vh;
     display: flex;
-
 }
-
 
 h1 {
     color: #38B6FF ;
@@ -156,6 +154,7 @@ p {
     padding-left: 200px;
     padding-right: 200px;
 }
+
 
 .estilosobre h2 {
     color: #38B6FF;

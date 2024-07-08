@@ -29,7 +29,9 @@
     }
 
     h1 {
+        font-size: 4rem;
         padding-top: 50px;
+        text-align: center;
     }
 
     .estilo-texto h2 {
@@ -43,6 +45,7 @@
     .style-name-img {
         order: 1;
         margin: auto;        
+
     }
 
     .estilo-imagem{
@@ -68,5 +71,38 @@
 }
 
 /*Soft Skills*/
+
+
+.soft-skills-imagens {
+    flex-direction: column;
+    height: 95rem;
+    gap: 8rem;
+
+}
+
+.soft-skills-imagens > div {
+    flex: none;
+    height: 12rem;
+    transition: none;
+
+
+}
+
+.soft-skills-imagens > div:hover {
+    flex: none;
+}
+
+.soft-skills p {
+
+    margin-bottom: -35px;
+    opacity: 1;
+    transition: none;
+}
+
+.soft-skills p:hover{
+    opacity: 1;
+}
+
+/* Projects */
 
 }

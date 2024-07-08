@@ -60,6 +60,7 @@
 
 .about-container {
     flex-direction: column;
+    text-align: center;
     padding-left: 30px;
     padding-right: 30px;
 }

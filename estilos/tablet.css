@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Header */
+
+    header {
+        padding-left: 20px;
+    }    
+
+    header a:hover {
+        padding: 0px;
+        background-color: #121212;
+        color: white;
+        font-weight: normal;
+    }
+
+    /*Name*/
+
+    .name-container {
+        padding-top: 30px;
+
+    }
+
+    h1 {
+        font-size: 4rem;
+        padding-bottom: 20px;
+    }
+
+    .estilo-texto > p {
+        font-size: 1.38rem;
+        padding-bottom: 5px;
+    }
+
+    .style-name-img {
+        padding-top: 2.50rem;
+    }
+
+    /* About */
+
+    .about-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* Projects */
+
+    .projects {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    /* Certifications */
+    
+.style-card {
+    margin: 0px 0px 80px 0px;
+}
+
+/* Footer */
+
+footer p {
+    font-size: 1rem;
+}
+
+footer img {
+    width: 45px;
+    margin: 0px 20px;
+}
+
+}

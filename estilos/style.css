@@ -96,11 +96,6 @@ p {
     color: #38B6FF;
 }
 
-.estilo-imagem{
-    height: 40vh;
-    display: flex; 
-}
-
 
 .botaocv {
     background-color: #38B6FF;
@@ -123,6 +118,11 @@ p {
     background-color: #121212;
     color: #38B6FF;
     transition: 0.3s;
+}
+
+.estilo-imagem{
+    height: 40vh;
+    display: flex; 
 }
 
 .style-name-img {

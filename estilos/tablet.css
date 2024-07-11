@@ -18,7 +18,8 @@
     /*Name*/
 
     .name-container {
-        padding-top: 30px;
+        padding-top:5px;
+        border: none;
 
     }
 
@@ -39,15 +40,28 @@
     /* About */
 
     .about-container {
+        padding-top: 20vh;
         padding-left: 30px;
         padding-right: 30px;
     }
 
     /* Projects */
 
+    .style-projects {
+        align-items: center;
+    }
+
     .projects {
         padding-right: 0px;
         padding-left: 0px;
+    }
+
+    .projects-button {
+        flex-wrap: wrap;
+    }
+
+    .projects-button p {
+        margin-bottom: 7px;
     }
 
     /* Certifications */

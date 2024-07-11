@@ -13,10 +13,10 @@
 <body>
     <header>
             <nav>
-                <span class="material-symbols-outlined" id="burguer-menu">
+                <span class="material-symbols-outlined" id="burguer-menu" onclick="clickMenu()">
                     menu
                 </span>
-                <ul>
+                <ul id="menuescondido">
                     <li><a href="#about">SOBRE</a></li>
                     <li><a href="#hardskills">SKILLS</a></li>
                     <li><a href="#projects">PROJETOS</a></li>
@@ -186,6 +186,14 @@
 
         <p>Bruno Theodoro - 2024</p>
     </footer>
-
+    <script>
+        function clickMenu() {
+           if ( menuescondido.style.visibility == 'visible') {
+             menuescondido.style.visibility = 'hidden'
+           } else {
+             menuescondido.style.visibility = 'visible'
+           }
+        }
+    </script>
 </body>
 </html>

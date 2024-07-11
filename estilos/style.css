@@ -54,6 +54,10 @@ header a:hover {
     transition-duration: 0.7s;
 }
 
+#burguer-menu {
+    display:none ;
+}
+
 /* Name */
 
 .name-container {
@@ -64,6 +68,7 @@ header a:hover {
     padding-top: 50px;
     height: 50vh;
     display: flex;
+    border: 1px solid red;
 }
 
 h1 {
@@ -153,6 +158,7 @@ p {
     justify-content: space-between;
     justify-items: center;
     align-items: center ;
+    padding-top: 5vh;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -308,7 +314,6 @@ p {
     padding-right: 50px;
     padding-bottom: 50px;
 }
-
 
 
 .div-title {

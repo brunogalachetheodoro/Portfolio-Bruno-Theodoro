@@ -23,6 +23,9 @@
         font-weight: none;
         transition-duration: 0;
     } */
+    body {
+        overflow-x: hidden;
+    }
 
     header {
         padding-left: 0px;

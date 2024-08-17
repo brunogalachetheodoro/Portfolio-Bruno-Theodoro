@@ -393,6 +393,10 @@ p {
     transition-duration: 0.8s;
 }
 
+.estilo-tec {
+    font-weight: bolder;
+}
+
 /* Certifications */
 
 .degrade4 {
@@ -457,6 +461,11 @@ p {
 }
 
 /* Footer */
+
+.degrade-footer {
+    height: 50px;
+    background: linear-gradient(#092230,#121212);
+}
 
 footer {
     padding-top: 30px;

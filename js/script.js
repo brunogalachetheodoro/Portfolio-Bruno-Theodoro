@@ -7,14 +7,7 @@ function clickMenu() {
   }
 
   window.sr = ScrollReveal({reset:true});
-  // Animação Header
-  sr.reveal('.estilo-header', 
-    { 
-        duration: 3000,
-        distance: '50px',
-        origin: 'top',
-    })
-  
+
   // Animações topo
 
   sr.reveal('.estilo-imagem-topo', 
@@ -30,6 +23,26 @@ function clickMenu() {
             distance: '90px',
             origin: 'left'
         })
+
+// Animações Icones
+
+sr.reveal('.icon-animation1', {
+    duration: 2000,
+    distance: '90px',
+    delay: 500
+})
+
+sr.reveal('.icon-animation2', {
+    duration: 2000,
+    distance: '90px',
+    delay: 1000
+})
+
+sr.reveal('.icon-animation3', {
+    duration: 2000,
+    distance: '90px',
+    delay: 1500
+})
 
 //Animação Sobre
 
@@ -55,23 +68,14 @@ sr.reveal ('.estilo-imagem-sobre', {
 
 // Animações Hard Skills
 
-sr.reveal('.hardskills-animation1', {
-    duration: 2000,
+
+
+sr.reveal('.hardskills-animation', {
+    duration: 4000,
     distance: '90px',
-    delay: 500
+    origin: 'left'
 })
 
-sr.reveal('.hardskills-animation2', {
-    duration: 2000,
-    distance: '90px',
-    delay: 1000
-})
-
-sr.reveal('.hardskills-animation3', {
-    duration: 2000,
-    distance: '90px',
-    delay: 1500
-})
 
 // Animações Projetos
 
@@ -89,34 +93,3 @@ sr.reveal('.estilo-img-projeto',
             distance: '90px',
             origin: 'right'
         })
-
-// Animações Certificados
-
-sr.reveal('.animation-certificado-1', {
-    duration: 2000,
-    distance: '90px',
-    origin: 'left',
-    delay: 500
-})
-
-sr.reveal('.animation-certificado-2', {
-    duration: 2000,
-    distance: '90px',
-    origin: 'bottom',
-    delay: 500
-})
-
-sr.reveal('.animation-certificado-3', {
-    duration: 2000,
-    distance: '90px',
-    origin: 'right',
-    delay: 500
-})
-
-//Animação footer
-
-sr.reveal('.text-footer-animation', {
-    duration: 1000,
-    distance: '90px',
-    origin: 'bottom',
-})

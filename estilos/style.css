@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -142,9 +144,8 @@ p {
 }
 
 .style-social-icons-name {
-    width: 32px;
-    height: 32px;
     margin: -20px 25px 0px 25px;
+    font-size: 32px;
 }
 
 .degrade {
@@ -498,8 +499,7 @@ footer img {
 }
 
 /* Animações */
-.estilo-header,
-.estilo-texto-topo, .estilo-imagem-topo, .efeito-titulo, .hardskills-animation1, .hardskills-animation2, .hardskills-animation3, .estilo-imagem-sobre, .estilo-texto-sobre, .estilo-img-projeto, .estilo-texto-projeto, .animation-certificado-1, .animation-certificado-2, .animation-certificado-3, .text-footer-animation {
+.estilo-texto-topo, .estilo-imagem-topo, .icon-animation1, .icon-animation2, .icon-animation3, .efeito-titulo, .hardskills-animation, .estilo-imagem-sobre, .estilo-texto-sobre, .estilo-img-projeto, .estilo-texto-projeto {
     visibility: hidden;
 }
 

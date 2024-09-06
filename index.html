@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Bruno Theodoro</title>
+
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="imagens/favicon/code.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/mobile.css">
     <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/swiper-bundle.min.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/869bb39064.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    <header class="estilo-header">
+    <header >
             <nav>
                 <span class="material-symbols-outlined" id="burguer-menu" onclick="clickMenu()">
                     menu
@@ -35,9 +40,9 @@
         </div>
             <div class="style-name-img ">
                 <img class="estilo-imagem estilo-imagem-topo" src="imagens/bruno-fundo-azul.png" alt="">
-                <a href="https://www.linkedin.com/in/bruno-galache-theodoro/" target="_blank"><img class="style-social-icons-name hardskills-animation1" src="imagens/social-icon/linkedin.png " alt=""></a>
-                <a href="https://github.com/brunogalachetheodoro" target="_blank"><img class="style-social-icons-name hardskills-animation2" src="imagens/social-icon/github.png" alt=""></a>
-                <a href="https://api.whatsapp.com/send?phone=5543998753979" target="_blank"><img class="style-social-icons-name hardskills-animation3" src="imagens/social-icon/whatsapp.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/bruno-galache-theodoro/" target="_blank"> <i class="fa-brands fa-linkedin style-social-icons-name icon-animation1"  style="color: #38b6ff;"></i></a>
+                <a href="https://github.com/brunogalachetheodoro" target="_blank"><i class="fa-brands fa-square-github style-social-icons-name icon-animation2" style="color: #38b6ff;"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5543998753979" target="_blank"> <i class="fa-brands fa-square-whatsapp style-social-icons-name icon-animation3" style="color: #38b6ff;"></i></a>
             </div>
         </div>
     </section>
@@ -68,9 +73,9 @@
     <section class="hardskills"> 
         <h2 class="efeito-titulo">Hard Skills</h2>
         <div class="estilo-hard-skills ">
-          <i class="hardskills-animation1"><img src="imagens/hard-skill-icon/html.png" alt="" class="estilo-icon" ><p id="logo-html">HTML</p></i>
-          <i class="hardskills-animation2"><img src="imagens/hard-skill-icon/css-3.png" alt="" class="estilo-icon" ><p id="logo-css">CSS</p></i>
-          <i class="hardskills-animation3"><img id="js" src="imagens/hard-skill-icon/js.png" alt="" class="estilo-icon"><p id="logo-css">JavaScript</p></i>
+          <i class="hardskills-animation"><img src="imagens/hard-skill-icon/html.png" alt="" class="estilo-icon" ><p id="logo-html">HTML</p></i>
+          <i class="hardskills-animation"><img src="imagens/hard-skill-icon/css-3.png" alt="" class="estilo-icon" ><p id="logo-css">CSS</p></i>
+          <i class="hardskills-animation"><img id="js" src="imagens/hard-skill-icon/js.png" alt="" class="estilo-icon"><p id="logo-css">JavaScript</p></i>
           <div class="hide-elements">
               <i><img src="imagens/hard-skill-icon/tailwind.png" alt="" class="estilo-icon"><p>Tailwind</p></i>
               <i><img src="imagens/hard-skill-icon/react.png" alt="" class="estilo-icon"><p>React</p></i>
@@ -154,67 +159,67 @@
         
         
         <div class="style-certifications">
-            <div class="style-card animation-certificado-1">
-                <div class="style-card-2" id="style-card">
-                    <img class="img-style" src="imagens/certificados/Diploma-ADS.jpg" alt="">
-                    <h3>Técnologo Análise e Desenvolvimento de Sistemas</h3>
-                    <p>Formação superior completa na área de T.I. Pude aprender desde os conhecimentos básicos como Algoritmos e estruturas de dados aré tópicos mais avançados como Programação Orientada a Objeto.</p>
+            
+                <div class="style-card ">
+                    <div class="style-card-2" id="style-card">
+                        <img class="img-style" src="imagens/certificados/Diploma-ADS.jpg" alt="">
+                        <h3>Técnologo Análise e Desenvolvimento de Sistemas</h3>
+                        <p>Formação superior completa na área de T.I. Pude aprender desde os conhecimentos básicos como Algoritmos e estruturas de dados aré tópicos mais avançados como Programação Orientada a Objeto.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="style-card animation-certificado-2">
-                <div class="style-card-2">
-                    <img class="img-style" src="imagens/certificados/JavaScript-cursoemvideo.jpg" alt="">
-                    <h3>JavaScript</h3>
-                    <p>Aprendi os primeiros conceitos de JavaScript como variáveis, tratamento de dados, operadores, DOM, condições, repetições, variáveis compostas e funções. Tudo treinado com exercícios práticos.</p>
+                <div class="style-card ">
+                    <div class="style-card-2">
+                        <img class="img-style" src="imagens/certificados/JavaScript-cursoemvideo.jpg" alt="">
+                        <h3>JavaScript</h3>
+                        <p>Aprendi os primeiros conceitos de JavaScript como variáveis, tratamento de dados, operadores, DOM, condições, repetições, variáveis compostas e funções. Tudo treinado com exercícios práticos.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="style-card animation-certificado-3">
-                <div class="style-card-2">
-                    <img class="img-style" src="imagens/certificados/git-e-github.jpeg" alt="">
-                    <h3>Git e GitHub</h3>
-                    <p>Aprendi nesse curso como foi criado o Git e o GitHub, a diferença entre eles e suas funções mais inportantes na prática como: Criar e clonar repositório, versionamento de código e criar commit através do GitHub desktop.</p>
+                <div class="style-card ">
+                    <div class="style-card-2">
+                        <img class="img-style" src="imagens/certificados/git-e-github.jpeg" alt="">
+                        <h3>Git e GitHub</h3>
+                        <p>Aprendi nesse curso como foi criado o Git e o GitHub, a diferença entre eles e suas funções mais inportantes na prática como: Criar e clonar repositório, versionamento de código e criar commit através do GitHub desktop.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="style-card animation-certificado-1">
-                <div class="style-card-2">
-                    <img class="img-style" src="imagens/certificados/algoritmo.jpeg" alt="">
-                    <h3>Algoritmo e Lógica de Programação</h3>
-                    <p>Aprendi nesse curso conceitos de lógica de programação e algoritmos como: estruturas condicionais e de repetição, funções, vetores e matrizes. </p>
+                <div class="style-card ">
+                    <div class="style-card-2">
+                        <img class="img-style" src="imagens/certificados/algoritmo.jpeg" alt="">
+                        <h3>Algoritmo e Lógica de Programação</h3>
+                        <p>Aprendi nesse curso conceitos de lógica de programação e algoritmos como: estruturas condicionais e de repetição, funções, vetores e matrizes. </p>
+                    </div>
                 </div>
-            </div>
-            <div class="style-card animation-certificado-2">
-                <div class="style-card-2">
-                    <img class="img-style" src="imagens/certificados/figma-do-zero-ao-pro.jpeg" alt="">
-                    <h3>Figma do Zero ao Pro</h3>
-                    <p>Aprendi a criação de projetos de design para web, selecionando paleta de cores e fontes, focando na experiência do usuário. Tudo aplicado em projetos práticos.</p>
+                <div class="style-card ">
+                    <div class="style-card-2">
+                        <img class="img-style" src="imagens/certificados/figma-do-zero-ao-pro.jpeg" alt="">
+                        <h3>Figma do Zero ao Pro</h3>
+                        <p>Aprendi a criação de projetos de design para web, selecionando paleta de cores e fontes, focando na experiência do usuário. Tudo aplicado em projetos práticos.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="style-card animation-certificado-3">
-                <div class="style-card-2">
-                    <img class="img-style" src="imagens/certificados/html-css-modulo-1.jpeg" alt="">
-                    <h3>HTML e CSS</h3>
-                    <p>Aprendi nesse curso que possui quatro módulos, todos os conceitos essenciais de HTML e CSS como a estruturação do HTML e sua semântica, a criação de formulários, estilização com CSS, e responsividade. Tudo isso estudado com projetos práticos. </p>
+                <div class="style-card ">
+                    <div class="style-card-2">
+                        <img class="img-style" src="imagens/certificados/html-css-modulo-1.jpeg" alt="">
+                        <h3>HTML e CSS</h3>
+                        <p>Aprendi nesse curso que possui quatro módulos, todos os conceitos essenciais de HTML e CSS como a estruturação do HTML e sua semântica, a criação de formulários, estilização com CSS, e responsividade. Tudo isso estudado com projetos práticos. </p>
+                    </div>
                 </div>
-            </div>
-            <div class="style-card animation-certificado-2">
-                <div class="style-card-2">
-                    <img class="img-style" src="imagens/certificados/certificado-css-avancado.jpeg" alt="">
-                    <h3>CSS: Técnicas Avançadas</h3>
-                    <p>Aprendi nesse curso conceitos avançados de CSS como Flex-Box para o posicionamento dos elementos na página e responsividade. Conceitos esses aplicados na construção desta página como todos os projetos nela também. </p>
+                <div class="style-card ">
+                    <div class="style-card-2">
+                        <img class="img-style" src="imagens/certificados/certificado-css-avancado.jpeg" alt="">
+                        <h3>CSS: Técnicas Avançadas</h3>
+                        <p>Aprendi nesse curso conceitos avançados de CSS como Flex-Box para o posicionamento dos elementos na página e responsividade. Conceitos esses aplicados na construção desta página como todos os projetos nela também. </p>
+                    </div>
                 </div>
-            </div>
         </div>
     </section>
     <div class="degrade-footer"></div>
     <footer>
-        <a href="https://www.linkedin.com/in/bruno-galache-theodoro/" target="_blank"><img src="imagens/social-icon/linkedin.png"  class="hardskills-animation1" alt=""></a>
-        <a href="https://github.com/brunogalachetheodoro" target="_blank"><img src="imagens/social-icon/github.png"  class="hardskills-animation2" alt=""></a>
-        <a href="https://api.whatsapp.com/send?phone=5543998753979" target="_blank"><img src="imagens/social-icon/whatsapp.png" class="hardskills-animation3"  alt=""></a>
+        <a href="https://www.linkedin.com/in/bruno-galache-theodoro/" target="_blank"><img src="imagens/social-icon/linkedin.png"  alt=""></a>
+        <a href="https://github.com/brunogalachetheodoro" target="_blank"><img src="imagens/social-icon/github.png"  alt=""></a>
+        <a href="https://api.whatsapp.com/send?phone=5543998753979" target="_blank"><img src="imagens/social-icon/whatsapp.png"  alt=""></a>
 
-        <div class="text-footer-animation">
             <p>Bruno Theodoro - 2024</p>
-        </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    </script>
 </body>
 </html>

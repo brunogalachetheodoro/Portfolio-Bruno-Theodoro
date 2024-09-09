@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="estilos/swiper-bundle.min.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/869bb39064.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/869bb39064.js" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
+
 </head>
 <body>
     <header >
@@ -35,7 +37,7 @@
         <div class="estilo-texto estilo-texto-topo">
             <h1>Bruno Theodoro</h1>
             <h2>Desenvolvedor Front-End</h2>
-            <p>Desenvolvendo com <spa class="estilo-p">HTML, CSS e JavaScript</span></p>
+            <p>Desenvolvendo com <span class="estilo-p"></span></p>
             <a href="https://drive.google.com/uc?export=download&id=1utCflwOwXOf5XjEG03Y339odBIkj51Pg"><button class="botaocv">DOWNLOAD CV</button></a>
         </div>
             <div class="style-name-img ">
@@ -155,15 +157,14 @@
     <div id="div-title-certificado"> 
         <h2 class="efeito-titulo"> Certificações</h2>
     </div>
+
     <section>
-        
-        
         <div class="style-certifications">
             
                 <div class="style-card ">
                     <div class="style-card-2" id="style-card">
                         <img class="img-style" src="imagens/certificados/Diploma-ADS.jpg" alt="">
-                        <h3>Técnologo Análise e Desenvolvimento de Sistemas</h3>
+                        <h3>Análise e Desenvolvimento <br>de Sistemas</h3>
                         <p>Formação superior completa na área de T.I. Pude aprender desde os conhecimentos básicos como Algoritmos e estruturas de dados aré tópicos mais avançados como Programação Orientada a Objeto.</p>
                     </div>
                 </div>
@@ -211,6 +212,8 @@
                 </div>
         </div>
     </section>
+
+    
     <div class="degrade-footer"></div>
     <footer>
         <a href="https://www.linkedin.com/in/bruno-galache-theodoro/" target="_blank"><img src="imagens/social-icon/linkedin.png"  alt=""></a>
@@ -219,7 +222,7 @@
 
             <p>Bruno Theodoro - 2024</p>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
     </script>
 </body>
 </html>

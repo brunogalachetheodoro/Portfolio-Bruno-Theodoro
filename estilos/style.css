@@ -6,7 +6,9 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -106,6 +108,7 @@ p {
 .estilo-p {
     position:static;
     color: #38B6FF;
+    font-weight: bolder;
 }
 
 
@@ -423,6 +426,7 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 100px 0px;
+
 }
 
 .style-card {
@@ -441,9 +445,7 @@ p {
     border: 2px solid white;
 }
 
-#style-card {
-    border: 2px solid #daa520;
-}
+
 
 #style-card h3{
     color: #daa520;

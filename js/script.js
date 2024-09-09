@@ -93,3 +93,12 @@ sr.reveal('.estilo-img-projeto',
             distance: '90px',
             origin: 'right'
         })
+
+    /* Text Animation */
+
+    document.addEventListener('DOMContentLoaded', () => {
+        new TypeIt(".estilo-p", {
+            speed: 200,
+            loop: true
+        }).type('HTML' , {delay: 500}).delete(4).type('CSS', {delay: 900}).delete(3).type('JavaScript', {delay: 900}).delete(10).go()
+    })

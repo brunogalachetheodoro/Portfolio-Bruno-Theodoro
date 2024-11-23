@@ -276,13 +276,10 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
-    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
     justify-content: center;
 }
 
-.soft-skills-imagens > div:hover {
-    flex: 5;
-}
+
 
 .soft-skills p {
     display: flex;
@@ -290,13 +287,13 @@ p {
     align-items: end;
     margin-bottom: -70px;
     text-align: center;
-    font-size: 1.56rem;
-    opacity: 0;
-    transition: opacity 0.5s ease;
+    font-size: 1.25rem;
 }
 
-.soft-skills p:hover{
-    opacity: 1;
+@media screen and (min-width: 1000px) { 
+    .soft-skills p {
+        font-size: 1.7rem;
+    }
 }
 
 /* Projects */
@@ -401,7 +398,7 @@ p {
     font-weight: bolder;
 }
 
-/* Certifications */
+/* Contact */
 
 .degrade4 {
     height: 10vh;
@@ -420,6 +417,52 @@ p {
     padding-bottom: 50px;
 }
 
+
+.contact-section {
+    background-color: #092230;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    gap: 1rem;
+}
+
+.style-card {
+    background-color: #38B6FF;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.style-card img {
+    width: 100px;
+}
+
+.style-card button {
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    margin-top:20px;
+    background-color: #092230;
+    color: #38b6ff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#card-1 {
+    margin-left: 40px;
+}
+
+#card-4 {
+    margin-right: 40px;
+}
+
+/*
 .style-certifications {
     background-color: #092230;
     display: flex;
@@ -474,6 +517,7 @@ p {
     color: white;
     text-align: center;
 }
+    */
 
 /* Footer */
 

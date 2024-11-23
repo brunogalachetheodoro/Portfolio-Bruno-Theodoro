@@ -94,6 +94,39 @@ sr.reveal('.estilo-img-projeto',
             origin: 'right'
         })
 
+// Animação Contato
+
+sr.reveal('.efeito-contato1',
+    {
+        duration: 2000,
+        distance: '120px',
+        delay: 300
+    }
+)
+
+sr.reveal('.efeito-contato2',
+    {
+        duration: 2000,
+        distance: '120px',
+        delay: 200
+    }
+)
+
+sr.reveal('.efeito-contato3',
+    {
+        duration: 2000,
+        distance: '120px',
+        delay:100
+    }
+)
+
+sr.reveal('.efeito-contato4',
+    {
+        duration: 2000,
+        distance: '120px',
+    }
+)
+
     /* Text Animation */
 
     document.addEventListener('DOMContentLoaded', () => {

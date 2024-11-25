@@ -32,6 +32,7 @@ header {
     padding-left: 80px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-bottom: 2px solid #38B6FF;
     width: 100vw;
     z-index: 1;
@@ -66,6 +67,58 @@ header a:hover {
 
 #burguer-menu {
     display:none ;
+}
+
+#check {
+    display: none;
+}
+
+.switch {
+    position: relative;
+    background-color: #121212;
+    border: 2px solid #38B6FF;
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.slider {
+    position: absolute;
+    background-color: #38B6FF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: all .5s ease-in-out;
+}
+
+#check:checked ~.switch {
+    background-color: #38b6ff;
+}
+
+#check:checked ~ .switch .slider {
+    transform: translate(39px);
+    background-color: #121212;
+}
+
+.botao-idioma {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.botao-idioma img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 0px 8px;
+    cursor: pointer;
 }
 
 /* Name */

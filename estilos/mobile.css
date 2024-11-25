@@ -30,7 +30,6 @@
     header {
         padding-left: 0px;
         position: relative;
-        justify-content: flex-start;
     }
 
     nav {
@@ -84,6 +83,14 @@
         transition-duration: none;
     }
 
+    .botao-idioma {
+        padding-right: 40px;
+    }
+
+    header ul {
+        position: relative;
+    }
+    
     /* Name */
 
     .name-container {

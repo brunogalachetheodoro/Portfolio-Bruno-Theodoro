@@ -15,6 +15,10 @@
         font-weight: normal;
     }
 
+    .botao-idioma {
+        padding-right: 10px;
+    }
+
     /*Name*/
 
     .name-container {

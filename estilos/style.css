@@ -164,6 +164,14 @@ p {
     font-weight: bolder;
 }
 
+.estilo-p-name {
+    display: flex;
+    justify-content: left;
+}
+
+#p-name-section{
+    color: white;
+}
 
 .botaocv {
     background-color: #38B6FF;
@@ -389,6 +397,10 @@ p {
     font-size: 1.125rem;
 }
 
+.estilo-p-projeto {
+    display: flex;
+}
+
 .style-projects {
     display: flex;
     margin: 0px 50px;
@@ -544,4 +556,6 @@ footer img {
 .estilo-texto-topo, .estilo-imagem-topo, .icon-animation1, .icon-animation2, .icon-animation3, .efeito-titulo, .hardskills-animation, .estilo-imagem-sobre, .estilo-texto-sobre, .estilo-img-projeto, .estilo-texto-projeto, .efeito-contato1, .efeito-contato2, .efeito-contato3, .efeito-contato4 {
     visibility: hidden;
 }
+
+
 

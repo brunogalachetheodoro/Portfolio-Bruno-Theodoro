@@ -117,6 +117,11 @@
         order: 2;
     }
 
+    .estilo-p-name {
+        display: flex;
+        justify-content: center;
+    }
+
     .style-name-img {
         order: 1;
         margin: auto;        

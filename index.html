@@ -25,10 +25,10 @@
                     menu
                 </span>
                 <ul id="menuescondido">
-                    <li><a href="#about">SOBRE</a></li>
+                    <li><a href="#about" id="about">SOBRE</a></li>
                     <li><a href="#hardskills">SKILLS</a></li>
-                    <li><a href="#projects">PROJETOS</a></li>
-                    <li><a href="#contact">CONTATO</a></li>
+                    <li><a href="#projects" id="projects">PROJETOS</a></li>
+                    <li><a href="#contact" id="contact">CONTATO</a></li>
                 </ul>
             </nav>
             <div class="botao-idioma">
@@ -44,9 +44,11 @@
     <section class="name-container">
         <div class="estilo-texto estilo-texto-topo">
             <h1>Bruno Theodoro</h1>
-            <h2>Desenvolvedor Front-End</h2>
-            <p>Desenvolvendo com <span class="estilo-p"></span></p>
-            <a href="https://drive.google.com/uc?export=download&id=1utCflwOwXOf5XjEG03Y339odBIkj51Pg"><button class="botaocv">DOWNLOAD CV</button></a>
+            <h2 id="h2-name-section">Desenvolvedor Front-End</h2>
+            <div class="estilo-p-name">
+                <p id="p-name-section">Desenvolvendo com</p><span class="estilo-p"></span>
+            </div>
+            <a href="https://drive.google.com/uc?export=download&id=1utCflwOwXOf5XjEG03Y339odBIkj51Pg"><button class="botaocv" id="botaocv">DOWNLOAD CV</button></a>
         </div>
             <div class="style-name-img ">
                 <img class="estilo-imagem estilo-imagem-topo" src="imagens/bruno-fundo-azul.png" alt="">
@@ -61,17 +63,17 @@
     <section class="about-container">
         <img class="estilo-imagem estilo-imagem-sobre" src="imagens/funko-fundo-azul.png">
         <div class="estilosobre estilo-texto-sobre">
-            <h2>Sobre Mim</h2>
-            <p>Apaixonado por tecnologia, pude encontrar no desenvolvimento web uma forma de expressar minha criatividade e contribuir na vida de outras
+            <h2 id="h2-about-section">Sobre Mim</h2>
+            <p id="p1-about-section">Apaixonado por tecnologia, pude encontrar no desenvolvimento web uma forma de expressar minha criatividade e contribuir na vida de outras
             pessoas.</p>
-            <p>
+            <p id="p2-about-section">
             Trabalho em equipe,autodidata, liderança e capacidade de resolução
             são diferenciais que me destacam para agregar e contribuir com qualquer
             equipe que for trabalhar.
             </p>
-            <p>Como autodidata, pude aprender as habilidades técnicas necessárias e 
+            <p id="p3-about-section">Como autodidata, pude aprender as habilidades técnicas necessárias e 
             aplicá-las em projetos práticos simulando a realidade, criando projetos úteis.</p>
-            <p>
+            <p id="p4-about-section">
              Gamer, leitor e entusiasta esportivo, meus hobbies me mantém equilibrado para melhor exercer minhas tarefas como desenvolvedor e ainda me ajudam no desenvolvimento pessoal.
             </p>
         </div>
@@ -100,24 +102,30 @@
         <h2 class="efeito-titulo"> Soft Skills</h2>
 
         <div class="soft-skills-imagens">
-            <div style="background-image: url(imagens/soft-skills-image/time-managment.png);" class="estilo-soft-skills estilo-soft-1"> <p> Gestão de Tempo</p></div>
-            <div style="background-image: url(imagens/soft-skills-image/team-work.png) ;" class="estilo-soft-skills estilo-soft-2"><p>Resolução de Problema</p></div>
-            <div style="background-image: url(imagens/soft-skills-image/self-taught.png) ;" class="estilo-soft-skills estilo-soft-3"><p>Autodidata</p></div>
-            <div style="background-image: url(imagens/soft-skills-image/problem-solving.png) ;" class="estilo-soft-skills estilo-soft-4"><p>Trabalho em Equipe</p></div>
-            <div style="background-image: url(imagens/soft-skills-image/idea.png) ;" class="estilo-soft-skills estilo-soft-5"><p id="p-style">Criativo</p></div>
+            <div style="background-image: url(imagens/soft-skills-image/time-managment.png);" class="estilo-soft-skills estilo-soft-1"> <p id="p1-soft-section"> Gestão de Tempo</p></div>
+            <div style="background-image: url(imagens/soft-skills-image/team-work.png) ;" class="estilo-soft-skills estilo-soft-2"><p id="p2-soft-section">Resolução de Problema</p></div>
+            <div style="background-image: url(imagens/soft-skills-image/self-taught.png) ;" class="estilo-soft-skills estilo-soft-3"><p id="p3-soft-section">Autodidata</p></div>
+            <div style="background-image: url(imagens/soft-skills-image/problem-solving.png) ;" class="estilo-soft-skills estilo-soft-4"><p id="p4-soft-section">Trabalho em Equipe</p></div>
+            <div style="background-image: url(imagens/soft-skills-image/idea.png) ;" class="estilo-soft-skills estilo-soft-5"><p id="p5-soft-section">Criativo</p></div>
         </div>
     </section>
     <div id="projects" class="degrade3">
     </div>
     <div class="div-title">
-        <h2 class="efeito-titulo">Projetos</h2>
+        <h2 class="efeito-titulo" id="h2-projects-section">Projetos</h2>
     </div>
     <section class="projects">
         <div class="style-projects">
             <img class="estilo-img-projeto" src="imagens/projetos/sushi-no-hero.png" alt="">
             <div class="projects-text estilo-texto-projeto">
-                <h3>Cardápio Digital</h3>
-                <p>Cardápio projetado para restaurante japonês com funcionalidades e interações que melhoram a experiência do usuário. <br><br>Construido com a estratégia mobile first e adaptado para telas maiores. <br><br><span class="estilo-tec">Tecnologias utilizadas:</span> HTML, CSS e JavaScript</p>
+                <h3 id="1-project-title">Cardápio Digital</h3>
+                <p id="p1-project1">Cardápio projetado para restaurante japonês com funcionalidades e interações que melhoram a experiência do usuário.</p>
+                
+                <p id="p2-project1">Construído com a estratégia mobile first e adaptado para telas maiores. </p>
+                
+                <div class="estilo-p-projeto">
+                    <p id="p3-project1"><span class="estilo-tec">Tecnologias utilizadas:</span></p><p id="p4-project1">HTML, CSS e JavaScript </p>
+                </div>
                 <div class="projects-button">
                     <a href="https://brunogalachetheodoro.github.io/Cardapio-Digital/" target="_blank">
                         <p class="projects-button-style"><img src="imagens/projects-icon/internet.png" alt="">Site</p>
@@ -131,8 +139,14 @@
         <div class="style-projects">
             <img class="estilo-img-projeto"  src="imagens/projetos/login-pokemon.png" alt="">
             <div class="projects-text estilo-texto-projeto">
-                <h3>Página de Login</h3>
-                <p>Página criada para login do usuário. Inicialmente focada apenas na interface, sem funcionalidades adicionais.<br><br>Construido com a estratégia mobile first e adaptado para telas maiores. <br><br><span class="estilo-tec">Tecnologias utilizadas:</span> HTML & CSS</p>
+                <h3 id="2-project-title">Página de Login</h3>
+                <p id="p1-project2">Página criada para login do usuário. Inicialmente focada apenas na interface, sem funcionalidades adicionais.</p>
+                
+                <p id="p2-project2">Construido com a estratégia mobile first e adaptado para telas maiores.</p> 
+                
+                <div class="estilo-p-projeto">
+                    <p id="p3-project2"><span class="estilo-tec">Tecnologias utilizadas:</span></p><p id="p4-project2">HTML e CSS </p>
+                </div>
                 <div class="projects-button">
                     <a href="https://brunogalachetheodoro.github.io/Pagina-Login/" target="_blank">
                         <p class="projects-button-style"><img src="imagens/projects-icon/internet.png" alt="">Site</p>
@@ -146,8 +160,14 @@
         <div class="style-projects">
             <img class="estilo-img-projeto"  src="imagens/projetos/projeto-barbearia.jpg" alt="">
             <div class="projects-text estilo-texto-projeto">
-                <h3>Página Barbearia</h3>
-                <p>Página informativa sobre barbearia com o objetivo de levar leads ao whatsapp do comércio. <br><br> Aplicado os conceitos de mobile first para uma melhor adaptação em telas maiores. <br><br><span class="estilo-tec">Tecnologias utilizadas:</span> HTML, CSS e JavaScript</p>
+                <h3 id="3-project-title">Página Barbearia</h3>
+                <p id="p1-project3">Página informativa sobre barbearia com o objetivo de levar leads ao whatsapp do comércio.</p> 
+                
+                <p id="p2-project3">Aplicado os conceitos de mobile first para uma melhor adaptação em telas maiores.</p> 
+                
+                <div class="estilo-p-projeto">
+                    <p id="p3-project3"><span class="estilo-tec">Tecnologias utilizadas:</span></p><p id="p4-project3">HTML, CSS e JavaScript </p>
+                </div>
                 <div class="projects-button">
                     <a href="https://brunogalachetheodoro.github.io/LP-Barbearia/" target="_blank">
                         <p class="projects-button-style"><img src="imagens/projects-icon/internet.png" alt="">Site</p>
@@ -163,25 +183,25 @@
     </section>
     <div id="contact" class="degrade4"></div>
     <div id="div-title-certificado"> 
-        <h2 class="efeito-titulo"> Contato</h2>
+        <h2 class="efeito-titulo" id="h2-contact-section"> Contato</h2>
     </div>
 
     <section class="contact-section">
         <div class="style-card efeito-contato1" id="card-1">
             <img src="imagens/contact-icons/email-icon.png" alt="">
-            <a href="mailto:bruno.hgt2@gmail.com" target="_blank"><button>ENTRAR</button></a>
+            <a href="mailto:bruno.hgt2@gmail.com" target="_blank"><button id="button-contact">ENTRAR</button></a>
         </div>
         <div class="style-card efeito-contato2">
             <img src="imagens/contact-icons/whatsapp-icon.png" alt="">
-            <a href="https://api.whatsapp.com/send?phone=5543998753979" target="_blank"><button>ENTRAR</button></a>
+            <a href="https://api.whatsapp.com/send?phone=5543998753979" target="_blank"><button id="button-contact2">ENTRAR</button></a>
         </div>
         <div class="style-card efeito-contato3">
             <img src="imagens/contact-icons/linkedin-icon.png" alt="">
-            <a href="https://www.linkedin.com/in/bruno-galache-theodoro/" target="_blank"><button>ENTRAR</button></a>
+            <a href="https://www.linkedin.com/in/bruno-galache-theodoro/" target="_blank"><button id="button-contact3">ENTRAR</button></a>
         </div>
         <div class="style-card efeito-contato4" id="card-4">
             <img src="imagens/contact-icons/github-icon.png" alt="">
-            <a href="https://github.com/brunogalachetheodoro" target="_blank"><button>ENTRAR</button></a>
+            <a href="https://github.com/brunogalachetheodoro" target="_blank"><button id="button-contact4">ENTRAR</button></a>
         </div>
     </section>
 

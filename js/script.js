@@ -173,20 +173,17 @@ menuToggle.addEventListener('change', ()=> {
             document.getElementById('1-project-title').innerHTML='Digital Menu'
             document.getElementById('p1-project1').innerHTML='Menu designed for a Japanese restaurant with features and interactions that enhance the user experience.'
             document.getElementById('p2-project1').innerHTML='Built with a mobile-first strategy and optimized for larger screens.'
-            document.getElementById('p3-project1').innerHTML= '<span class="estilo-tec">Technologies Used:</span>'
-            document.getElementById('p4-project1').innerHTML='HTML, CSS and JavaScript'
+            document.getElementById('p3-project1').innerHTML= '<span class="estilo-tec">Technologies Used:</span> HTML, CSS and JavaScript'
             //Project 2
             document.getElementById('2-project-title').innerHTML='Login Page'
             document.getElementById('p1-project2').innerHTML='A page designed for user login, initially focused on the interface without additional functionalities.'
             document.getElementById('p2-project2').innerHTML='Built with a mobile-first strategy and optimized for larger screens.'
-            document.getElementById('p3-project2').innerHTML= '<span class="estilo-tec">Technologies Used:</span>'
-            document.getElementById('p4-project2').innerHTML='HTML and CSS'
+            document.getElementById('p3-project2').innerHTML= '<span class="estilo-tec">Technologies Used:</span> HTML and CSS'
             //Project 3
             document.getElementById('3-project-title').innerHTML='Barbershop Page'
             document.getElementById('p1-project3').innerHTML="An informational page about the barbershop, designed to drive leads to the business's WhatsApp."
             document.getElementById('p2-project3').innerHTML='Built with a mobile-first approach for better adaptation to larger screens.'
-            document.getElementById('p3-project3').innerHTML= '<span class="estilo-tec">Technologies Used:</span>'
-            document.getElementById('p4-project3').innerHTML='HTML, CSS and JavaScript'
+            document.getElementById('p3-project3').innerHTML= '<span class="estilo-tec">Technologies Used:</span> HTML, CSS and JavaScript'
 
         //Contact
         document.getElementById('h2-contact-section').innerHTML='Contact'
@@ -226,20 +223,17 @@ menuToggle.addEventListener('change', ()=> {
             document.getElementById('1-project-title').innerHTML='Cardápio Digital'
             document.getElementById('p1-project1').innerHTML='Cardápio projetado para restaurante japonês com funcionalidades e interações que melhoram a experiência do usuário.'
             document.getElementById('p2-project1').innerHTML='Construido com a estratégia mobile first e adaptado para telas maiores.'
-            document.getElementById('p3-project1').innerHTML= '<span class="estilo-tec">Tecnologias utilizadas:</span>'
-            document.getElementById('p4-project1').innerHTML='HTML, CSS e JavaScript'
+            document.getElementById('p3-project1').innerHTML= '<span class="estilo-tec">Tecnologias utilizadas:</span> HTML, CSS e JavaScript'
             //Project 2
             document.getElementById('2-project-title').innerHTML='Página de Login'
             document.getElementById('p1-project2').innerHTML='Página criada para login do usuário. Inicialmente focada apenas na interface, sem funcionalidades adicionais.'
             document.getElementById('p2-project2').innerHTML='Construido com a estratégia mobile first e adaptado para telas maiores.'
-            document.getElementById('p3-project2').innerHTML= '<span class="estilo-tec">Tecnologias utilizadas:</span>'
-            document.getElementById('p4-project2').innerHTML='HTML e CSS'
+            document.getElementById('p3-project2').innerHTML= '<span class="estilo-tec">Tecnologias utilizadas:</span> HTML e CSS'
             //Project 3
             document.getElementById('3-project-title').innerHTML='Página Barbearia'
             document.getElementById('p1-project3').innerHTML="Página informativa sobre barbearia com o objetivo de levar leads ao whatsapp do comércio."
             document.getElementById('p2-project3').innerHTML='Aplicado os conceitos de mobile first para uma melhor adaptação em telas maiores.'
-            document.getElementById('p3-project3').innerHTML= '<span class="estilo-tec">Tecnologias utilizadas:</span>'
-            document.getElementById('p4-project3').innerHTML='HTML, CSS e JavaScript'
+            document.getElementById('p3-project3').innerHTML= '<span class="estilo-tec">Tecnologias utilizadas:</span> HTML, CSS e JavaScript'
         //Contact
         document.getElementById('h2-contact-section').innerHTML='Contato'
         document.getElementById('button-contact').innerHTML='ENTRAR'

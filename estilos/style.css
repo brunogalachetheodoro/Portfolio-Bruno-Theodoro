@@ -167,9 +167,15 @@ p {
 .estilo-p-name {
     display: flex;
     justify-content: left;
+    align-items: center;
+    padding: 20px 0px;
 }
 
 #p-name-section{
+    margin: 0;
+    padding: 0;
+    padding-right: 5px;
+    justify-content: center;
     color: white;
 }
 
@@ -197,7 +203,8 @@ p {
 }
 
 .estilo-imagem{
-    height: 40vh;
+    padding-top: 20px;
+    height: 50vh;
     display: flex; 
 }
 

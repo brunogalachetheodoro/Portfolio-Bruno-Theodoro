@@ -118,7 +118,6 @@ header a:hover {
     width: 35px;
     height: 35px;
     margin: 0px 8px;
-    cursor: pointer;
 }
 
 /* Name */
@@ -203,7 +202,6 @@ p {
 }
 
 .estilo-imagem{
-    padding-top: 20px;
     height: 50vh;
     display: flex; 
 }

@@ -203,7 +203,7 @@ menuToggle.addEventListener('change', ()=> {
 
         //Name Section
         document.getElementById('h2-name-section').innerHTML='Desenvolvedor Front-End'
-        //document.getElementById('p-name-section').innerHTML='Desenvolvendo com'
+        document.getElementById('p-name-section').innerHTML='Desenvolvendo com'
         document.getElementById('botaocv').innerHTML='DONWLOAD CV'
 
         //About Section

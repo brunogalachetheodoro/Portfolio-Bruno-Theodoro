@@ -306,6 +306,10 @@ p {
     margin-right: 5px;
 }
 
+.estilo-icon{
+    width: 120px;
+}
+
 .hide-elements {
     display: none;
 } /*Ao adquirir as habilidades, apagar*/

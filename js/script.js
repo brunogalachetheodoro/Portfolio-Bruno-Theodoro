@@ -133,7 +133,14 @@ sr.reveal('.efeito-contato4',
         new TypeIt(".estilo-p", {
             speed: 200,
             loop: true
-        }).type('HTML' , {delay: 500}).delete(4).type('CSS', {delay: 900}).delete(3).type('JavaScript', {delay: 900}).delete(10).go()
+        })
+        .type('HTML' , {delay: 500}).delete(4).
+        type('CSS', {delay: 900}).delete(3)
+        .type('JavaScript', {delay: 900}).delete(10)
+        .type('Vue.JS', {delay: 900}).delete(10)
+        .type('Tailwind', {delay: 900}).delete(10)
+        .type('PHP', {delay: 900}).delete(10)
+        .type('Laravel', {delay: 900}).delete(10).go()
     })
 
 // Page Language

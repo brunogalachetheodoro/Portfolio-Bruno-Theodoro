@@ -156,7 +156,7 @@ menuToggle.addEventListener('change', ()=> {
         document.getElementById('contact').innerHTML='CONTACT'
 
         //Name Section
-        document.getElementById('h2-name-section').innerHTML='Front-End Developer'
+        document.getElementById('h2-name-section').innerHTML='Full-Stack Developer'
         document.getElementById('p-name-section').innerHTML='Developing with '
         document.getElementById('botaocv').innerHTML='DONWLOAD RESUME'
 
@@ -206,7 +206,7 @@ menuToggle.addEventListener('change', ()=> {
          document.getElementById('contact').innerHTML='CONTATO'
 
         //Name Section
-        document.getElementById('h2-name-section').innerHTML='Desenvolvedor Front-End'
+        document.getElementById('h2-name-section').innerHTML='Desenvolvedor Full-Stack'
         document.getElementById('p-name-section').innerHTML='Desenvolvendo com'
         document.getElementById('botaocv').innerHTML='DONWLOAD CV'
 

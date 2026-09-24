@@ -414,6 +414,7 @@ p {
     display: flex;
     margin: 0px 50px;
     margin-bottom: 100px;
+    align-items: center;
 }
 
 
